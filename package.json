@@ -1,0 +1,23 @@
+{
+  "name": "app-chat",
+  "version": "1.0.0",
+  "description": "Chat en tiempo real con sockets (Node.js, Socket.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jscalderons/app-chat.git"
+  },
+  "author": "jscalderons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscalderons/app-chat/issues"
+  },
+  "homepage": "https://github.com/jscalderons/app-chat#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
