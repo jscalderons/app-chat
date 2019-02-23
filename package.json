@@ -4,7 +4,9 @@
   "description": "Chat en tiempo real con sockets (Node.js, Socket.io)",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "node index.js",
+    "test": "nodemon index.js",
+    "debug": "nodemon --nolazy --inspect-brk=9229 index.js"
   },
   "repository": {
     "type": "git",
